@@ -8,7 +8,7 @@ Shader "VeryDisco/Sprite2D/SpriteFillShader"
         _MainTex ("Base (RGB)", 2D) = "white" { }
         _ProgressColor("Progress Color", Color) = (0, 0, 0, 0)
         _BGColor("Back Ground Color", Color) = (0, 0, 0, 0)
-        _FillAmount ("Fill Amount", Range(0, 15)) = 1
+        _FillAmount ("Fill Amount", Range(0, 1)) = 0
     }
 
     SubShader
